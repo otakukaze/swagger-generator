@@ -116,6 +116,19 @@ For model definitions:
  */
 ```
 
+#### Tests
+
+Run the regression tests with Node.js 22.19.0 or later:
+
+```
+npm ci
+npm test
+```
+
+Tests use the built-in Node.js test runner and local JSDoc fixtures. They cover
+Swagger generation and schema validation, models, parameters, file matching,
+merging, and error handling. No external services are required to run the tests.
+
 #### More
 
 This module is based on [express-swaggerize-ui](https://github.com/pgroot/express-swaggerize-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
