@@ -2,6 +2,8 @@
 
 #### Installation
 
+Requires Node.js 22.19.0 or later.
+
 ```
 npm i @mtfos/swagger-generator
 ```
